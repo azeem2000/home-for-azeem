@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#6D28D9;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:#D1D5DB ;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+.azeem {
+    background-color: #FBBF24;
+    color: black;
+    border-bottom-left-radius: 0.78rem;
+    border-bottom-right-radius: 0.78rem;
+    padding: 2rem;
+    margin-top: none;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 60rem;
+    margin: auto;
+}
+
+.primary-link {
+    background-color:#FBBF24 ;
+    padding:0.25rem 0.25rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border: 1px solid grey;
+}
+.secondary-link {
+    padding:0.25rem 0.25rem;
+    border-radius: 0.5rem;
+    background-color:#E5E7EB ;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.non-bullet {
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
+.navigation {
+    background-color: #FBBF24;
+    color: black;
+    border-radius: 0.78rem;
+    padding: 1rem;
+}
+.link {
+    color: black;
+    text-decoration: none;
+}
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: medium;
+}
+.navigation .nav-pills {
+    text-align: right;
+    
+}
+
+.navigation .link-active {
+    font-weight: bold
+}
+
+.hacker {
+    padding: 2rem;
+}
+
+.hacker .hacker-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hacker .hacker-heading {
+    padding-top: 1rem;
+    font-size: x-large;
+    text-align: center;
+    color:#4B5563 ;
+}
+
+.section  h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer {
+    background-color: #111827 ;
+    color: #F9FAFB ;
+    padding: 1rem 2rem;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    text-align: center;
+}
