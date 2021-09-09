@@ -16,8 +16,7 @@ hr {
     color: black;
     border-bottom-left-radius: 0.78rem;
     border-bottom-right-radius: 0.78rem;
-    padding: 2rem;
-    margin-top: none;
+    padding-bottom: 2rem;
 }
 
 .container {
@@ -68,9 +67,13 @@ hr {
     color: black;
     text-decoration: none;
 }
+.link-white {
+    color: white;
+    text-decoration: none;
+}
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: medium;
+    font-size: x-large;
 }
 .navigation .nav-pills {
     text-align: right;
@@ -98,16 +101,33 @@ hr {
     color:#4B5563 ;
 }
 
-.section  h1 {
-    text-align: center;
+.section  {
+    text-align:center;
     padding: 2rem;
+    background-color:#111827 ;
+    color:white ;
+}
+.section-2  {
+    text-align:center;
+    padding: 2rem;
+    background-color: #D1D5DB;
+    color:black ;
+}
+
+.section-content{
+    text-align: left;
 }
 
 .footer {
-    background-color: #111827 ;
-    color: #F9FAFB ;
-    padding: 1rem 2rem;
-    border-top-left-radius: 0.7rem;
-    border-top-right-radius: 0.7rem;
+    background-color:#111827 ;
+    color:white ;
+    padding: 2rem 2rem;
+    /* border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem; */
     text-align: center;
+}
+
+.footer-header{
+    font-weight: bold;
+    text-align: left;
 }
